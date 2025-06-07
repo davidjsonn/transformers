@@ -802,7 +802,7 @@ class Pix2StructIntegrationTest(unittest.TestCase):
 
         self.assertEqual(
             processor.decode(predictions[1], skip_special_tokens=True),
-            "A row of books including The Temple Bar and Guiness.",
+            "A row of books including The Temple Bar and Guinness.",
         )
 
     def test_batched_inference_image_captioning_conditioned(self):
